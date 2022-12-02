@@ -2,6 +2,7 @@ function apiGetProduct(searchTerm) {
   return axios({
     url: "https://6384b1203fa7acb14ffd8ae4.mockapi.io/products",
     method: "GET",
+    // Những giá trị được định nghĩa trong object params sẽ được thêm vào url:?key=value
     params: {
       name: searchTerm,
     },

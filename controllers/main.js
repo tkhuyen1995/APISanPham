@@ -33,7 +33,6 @@ function addProduct(product) {
     .catch((error) => {
       console.log(error);
     });
-  display(product);
 }
 
 // Viết function deleteProduct request API để xóa sản phẩm
